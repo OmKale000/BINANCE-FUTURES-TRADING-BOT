@@ -151,3 +151,15 @@ Example format inside `trading_bot.log`:
 *   **Testnet Only**: All calls are strictly hardcoded to the Binance Futures Testnet endpoint (`https://testnet.binancefuture.com`). It will **never** execute on live Production funds.
 *   **Asset Precision & Rules**: Binance imposes Minimum Order Quantity (LOT_SIZE) and Min Price (PRICE_FILTER) on each symbol. For example, `BTCUSDT` minimum quantity is `0.001`. E.g., submitting `0.0001` or a price mismatching tick size will return a `BinanceAPIError` (code `-1111` or `-1013`). Ensure you check the testnet symbol specs if you get filter errors.
 *   **One Position Mode**: This bot submits standard orders, which works seamlessly in the default "One-Way Mode" (standard long/short positioning). If your account is in Hedged Mode, it requires specifying `positionSide` in requests.
+
+  ---
+
+  ### 👤 Contact
+
+Created by Om Kale
+
+Email : ok176471@gmail.com
+
+Special Credit: project idea inspired by @avani.artxtech
+
+💌 Reach out for questions or collaborations!
