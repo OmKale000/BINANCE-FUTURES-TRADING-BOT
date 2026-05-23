@@ -158,8 +158,6 @@ Example format inside `trading_bot.log`:
 
 Created by Om Kale
 
-Email : ok176471@gmail.com
-
-Special Credit: project idea inspired by @avani.artxtech
+Email : omanilkale000@gmail.com
 
 💌 Reach out for questions or collaborations!
